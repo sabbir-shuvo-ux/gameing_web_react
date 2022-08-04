@@ -1,0 +1,336 @@
+video {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: -1;
+}
+
+.hero-container {
+  height: auto;
+  min-height: 100vh;
+  width: 100%;
+  background-image: url(/public/images/dark_gradient.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  /*background-size: cover; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.25);
+  object-fit: contain;
+}
+
+.hero-container > h1 {
+  color: #fff;
+  font-size: 100px;
+  font-weight: 900;
+  text-align: center;
+  margin-top: 6%;
+  /* -webkit-text-stroke: 2px black; width and color */
+}
+
+.hero-container > p {
+  margin-top: 2%;
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+#buyat {
+  margin-top: 80px;
+  color: rgb(255, 208, 0);
+  font-size: 26px;
+  text-align: center;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  /* -webkit-text-stroke: 2px black; width and color */
+}
+
+#buy-content {
+  margin-top: 80px;
+  color: rgb(255, 208, 0);
+  font-size: 26px;
+  text-align: center;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  height: fit-content;
+  justify-self: center;
+  align-self: center;
+  flex-flow: row;
+  list-style: none;
+  margin: 80px 0 0px;
+  padding: 0 25px;
+  box-sizing: border-box;
+  /* backdrop-filter: blur(30px); */
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.5);
+  border-radius: 50px;
+  border: 5px solid #fff;
+  align-items: center;
+}
+
+.new-button-design {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  margin-right: 5%;
+  margin-left: 5%;
+  box-sizing: border-box;
+  margin: 10px auto;
+  /* margin-right: 30px; */
+  cursor: pointer;
+  height: auto;
+  padding: 20px 30px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 16px;
+  border-radius: 50px;
+  border: none;
+  transition: all 0.25s ease;
+}
+
+.play {
+  color: #fff;
+  background-color: #ff42d9;
+}
+
+.whitepaper {
+  color: black;
+  background-color: #fff;
+  font-weight: 500;
+}
+
+.new-button-design:hover {
+  transform: scale(1.1);
+}
+
+.buy-flex {
+  display: flex;
+  /* width: 450px; */
+  justify-content: center;
+  /* margin-top: 1%; */
+  margin-bottom: 5%;
+  display: flex;
+  grid-template-columns: repeat(2, auto);
+  grid-gap: 15px;
+  align-items: center;
+}
+
+/* .buy-flex img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+} */
+
+.ul-buy {
+  width: fit-content;
+  /* height: fit-content; */
+  justify-self: center;
+  align-self: center;
+  display: flex;
+  flex-flow: row;
+  list-style: none;
+  margin: 0px 0 30px;
+  padding: 0 25px;
+  box-sizing: border-box;
+  backdrop-filter: blur(30px);
+  border-radius: 50px;
+  border: 5px solid #fff;
+}
+
+.ul-buy li {
+  display: flex;
+  /* flex-flow: column; */
+  padding: 25px 40px;
+  box-sizing: border-box;
+  /* justify-content: flex-start; */
+  align-items: center;
+  border-right: 2px solid #fff;
+  /* flex-grow: 1; */
+  color: white;
+}
+
+.buy-defis {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.buy-defis img {
+  width: 20%;
+  height: 20%;
+  margin-right: 15px;
+}
+
+.buy-defis div {
+  font-size: 20px;
+  font-weight: 400;
+  margin-right: 15px;
+}
+
+.ul-buy li:last-of-type {
+  border: unset;
+}
+
+.icons-home {
+  margin-top: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 40%;
+  margin-bottom: 4%;
+}
+
+.hero-btns {
+  width: 450px;
+  justify-content: space-between;
+  display: flex;
+  margin-top: 32px;
+  margin-bottom: 50px;
+}
+
+.hero-links {
+  /* position: fixed; */
+  margin-top: 200px;
+  /* margin-bottom: 0px; */
+  justify-content: center !important;
+}
+
+.hero-links img {
+  margin-right: 100px;
+}
+
+.hero-btns .btn {
+  margin: 6px;
+}
+
+.fa-play-circle {
+  margin-left: 4px;
+}
+
+.icon-socials {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  left: 50%;
+  bottom: -10px;
+  transform: translateX(-43%);
+}
+
+/* #home > img {
+  position: absolute;
+  width: 100%;
+  background-size: cover;
+} */
+
+.fumi {
+  background-image: url(/public/images/dark_gradient.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  width: 100%;
+  /* height: 200px; */
+}
+
+.buy-defis img {
+  width: 20%;
+  height: 20%;
+  margin-right: 15px;
+}
+
+/* .fumi img.wide {
+  max-width: 100%;
+  max-height: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.fumi img.tall {
+  max-height: 100%;
+  max-width: 100%;
+  width: auto;
+  object-fit: cover;
+} */
+
+@media screen and (max-width: 960px) {
+
+  .buy-defis div {
+    display: none;
+  }
+
+  .buy-defis img {
+    width: 100%;
+    height: 100%;
+    margin-right: 15px;
+  }
+
+
+  .hero-container > h1 {
+    font-size: 50px;
+    margin-top: 20%;
+  }
+
+  .hero-btns {
+    display: block;
+    width: 100%;
+  }
+
+  .hero-btns .btn {
+    margin: 1%;
+  }
+
+  .hero-container > p {
+    font-size: 20px;
+  }
+
+  .btn-mobile {
+    display: block;
+    text-decoration: none;
+  }
+
+  .btn {
+    width: 80%;
+  }
+
+  #buy-content {
+    margin-top: 80px;
+    color: rgb(255, 208, 0);
+    font-size: 18px;
+    text-align: center;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+    height: fit-content;
+    margin: 80px 0 0px;
+    /* padding: 0 15px; */
+    box-sizing: border-box;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.5);
+    border-radius: 50px;
+    border: 5px solid #fff;
+    align-items: center;
+  }
+
+  .buy-flex {
+    display: block;
+    margin-top: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+    align-items: center;
+  }
+
+
+
+  .hero-container > p {
+    margin-top: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+  }
+
+  .icons-home {
+    width: 90%;
+  }
+}

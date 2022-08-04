@@ -1,0 +1,11 @@
+
+
+#connect {
+  height: auto;
+  min-height: 10vh;
+  width: 100%;
+  background-image: url(/public/images/dark_gradient.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: contain;
+}

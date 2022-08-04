@@ -1,0 +1,121 @@
+.buyat-container {
+  height: auto;
+  min-height: 80vh;
+  width: 100%;
+  display: flex;
+  flex-flow: column;
+  flex-direction: column;
+  align-items: center;
+  /* box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2); */
+  background: #0c0726;
+}
+
+#ul-features {
+  list-style: none;
+  margin: 50px 0;
+  padding: 0;
+  display: flex;
+  flex-flow: row wrap;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: center;
+}
+
+#features li {
+  height: 50%;
+  padding-top: 25%;
+  width: 45%;
+  /* margin: 0 4% 4%; */
+  margin-top: 0px;
+  margin-right: 0.5%;
+  margin-bottom: 1%;
+  margin-left: 0.5%;
+  /* background: rgba(0, 0, 0, 0.25); */
+  border-radius: 10px;
+  overflow: hidden;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  color: #fff;
+}
+
+li p {
+  font-size: 26px;
+  font-weight: 600;
+  /* font-weight: bolder; */
+  width: 40%;
+  margin: 0;
+  padding: 10px;
+  border-radius: 15px;
+  /* -webkit-backdrop-filter: blur(15px); */
+  /* backdrop-filter: blur(15px); */
+  box-shadow: inset 0 0 0 1000px rgb(0 0 0 / 30%);
+  box-sizing: border-box;
+  top: 20px;
+  left: 25px;
+  text-align: center;
+  position: absolute;
+}
+
+.feature-inside {
+  /* transition: all 0.25s ease-in-out; */
+}
+
+/* .feature-inside:hover {
+  transform: scale(1.02);
+} */
+
+#games {
+  background-image: url(/public/images/games.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  cursor: pointer;
+}
+
+#nft {
+  background-image: url(/public/images/nfts.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  cursor: pointer;
+}
+
+#tv {
+  background-image: url(/public/images/hifitv.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  cursor: pointer;
+}
+
+#soon {
+  background-image: url(/public/images/soon.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  cursor: pointer;
+}
+
+#compete {
+  background-image: url(/public/images/compete.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 960px) {
+  #features li {
+    width: 85%;
+    /* height: 85%; */
+    padding-top: 60%;
+    margin: 0 0 8%;
+  }
+
+  #ul-features {
+    margin: 10px 0;
+  }
+
+  li p {
+    font-size: 20px;
+  }
+}
